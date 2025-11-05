@@ -1,2 +1,20 @@
+.holder {
+    display: flex;          /* Arrange items in a row */
+    justify-content: center;/* Center items horizontally */
+    align-items: center;    /* Center items vertically */
+    flex-wrap: wrap;        /* Allow items to move to the next row */
+    width: 100vw;           /* Full width of screen */
+    height: 100vh;          /* Full height of screen */
+}
 
-/* Your CSS Code here. */
+.item {
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;           /* Space so they aren't stuck together */
+    color: white;
+    font-weight: bold;
+}
